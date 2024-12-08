@@ -53,7 +53,7 @@ janela = tk.Tk()
 janela.title("Cálculo do IMC - Índice de Massa Corporal")
 
 # Definindo o tamanho da janela
-janela.geometry("400x400")
+janela.geometry("500x500")
 
 # Título na parte superior com cor de fundo cinza claro
 titulo = tk.Label(janela, text="Cálculo do IMC - Índice de Massa Corporal", font=("Arial", 16), pady=10)
@@ -106,10 +106,6 @@ botao_reiniciar.config(bg="#d3d3d3")  # Cor de fundo cinza claro
 botao_sair = tk.Button(frame_botoes, text="Sair", command=sair)
 botao_sair.pack(side="left", padx=10)
 botao_sair.config(bg="#d3d3d3")  # Cor de fundo cinza claro
-
-# Rodapé da página
-rodape = tk.Label(janela, text="Calculadora IMC - 2024", font=("Arial", 8))
-rodape.pack(side="bottom", pady=10)
 
 # Inicia o loop da interface
 janela.mainloop()
